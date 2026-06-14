@@ -1,2 +1,54 @@
-# cli
-LLM-wiki. How to use Windows, Dos, Linux, Mac, OpenCode, Copilot-CLI, Antigravity-CLI, OOO-CLI
+# LLM-Wiki 개인 지식 보관함 (cli)
+
+이 저장소는 안드레 카파시(Andre Karpathy)가 제안한 **LLM-Wiki** 지식 구축 관리 패턴을 적용한 Obsidian 보관함(Vault)입니다. 파편화된 원본 데이터를 수집(Gold In)하고, AI 에이전트(Antigravity, Claude Code 등)를 통해 정돈된 마크다운 문서로 변환·교차 연결하여 시간이 흐를수록 지식이 복리로 성장하도록 돕는 시스템입니다.
+
+---
+
+## 1. 디렉토리 구조 (Workspace Directory Layout)
+
+이 보관함은 다음과 같은 계층 구조로 지식과 규칙을 관리합니다.
+
+```text
+cli/
+├── raw/               # 정리된 외부 원본 자료 보관소 (Immutable, Single Source of Truth)
+├── raw_MyNote/        # 사용자가 직접 작성한 생각 및 개인 원본 메모 보관소 (Immutable)
+├── Clippings/         # 웹 클리퍼, 동영상 대본 스크랩 등 불필요한 정보가 섞인 원시 수집 자료 보관소
+├── Bookmark/          # 공식 문서, URL 등 외부 웹 참조 정보 모음
+├── wiki/              # 원본들을 바탕으로 정리된 지식 문서 보관소 (Compounding Knowledge Base)
+│   ├── Concepts/      # 완전히 소화하여 추상화한 핵심 원리 및 뼈대 문서 (Git, LLM-Wiki, Obsidian 등)
+│   ├── Dictionary/    # 개별 기술 용어 및 용어 개념 정의 문서 (Markdown 등)
+│   ├── QnA/           # AI 에이전트와의 프롬프트 및 맥락별 질의응답 기록 보관
+│   ├── Readings/      # 외부 기술 아티클 요약본 및 논문 리뷰 요약 보관
+│   └── Snippets/      # 프로그래밍 코드 조각 및 시스템 환경 설정 파일 보펫 모음
+├── wiki_Schema/       # 위키의 관리 설정 및 에이전트 도구 보관소
+│   ├── Log/           # 연구/개발 활동 시간순 일지 및 에러 핸들링 로그 (log.md)
+│   └── skills/        # AI 에이전트가 호출할 재사용 가능한 스크립트 및 스킬 정의서
+├── xport_Output/      # 보고서, 마인드맵, 외부 보고용 마크다운 등 최종 가공된 산출물
+└── AGENTS.md          # AI 에이전트에게 내리는 폴더 구조 규칙, 답변 원칙, 관리 지침서 (Schema)
+```
+
+---
+
+## 2. 핵심 운영 방식 (Core Operations)
+
+이 보관함은 AI 에이전트와의 협업을 기반으로 3가지의 핵심 가드닝 작업을 주기적으로 수행합니다.
+
+### 2-1. Ingest (정보 섭취)
+* **흐름**: 사용자가 새로운 자료를 `raw/`, `raw_MyNote/`, `Clippings/`에 추가 ➔ AI 에이전트에게 이 자료를 읽고 위키에 반영하라고 지시.
+* **동작**: 에이전트는 중복되는 내용을 기존 위키에 병합하고, 새로운 개념이나 용어 문서를 생성하며, Obsidian 양방향 링크(`[[링크]]`) 구조를 연결합니다. 최종적으로 `wiki/index.md`와 `wiki_Schema/Log/log.md`를 갱신합니다.
+
+### 2-2. Query (지식 질의)
+* **흐름**: 위키 폴더(`wiki/`) 내의 지식을 바탕으로 자연어 질문 수행.
+* **동작**: 에이전트는 축적된 위키 정보를 조합해 신뢰성 높은 답변을 만들며, 도출된 새로운 연결고리나 종합 분석본은 다시 위키의 QnA나 Concepts 폴더에 새 문서로 축적시킵니다.
+
+### 2-3. Lint (위키 정돈)
+* **흐름**: 에이전트에게 위키 폴더의 무결성 검사 요청.
+* **동작**: 에이전트는 서로 모순되는 기술 정보, 깨지거나 고립된 문서 링크(Orphan Link)를 감지하고 수정하여 디지털 정원을 건강하게 관리합니다.
+
+---
+
+## 3. 에이전트 가이드라인 및 규칙
+
+* **원본 보존**: `raw/`, `raw_MyNote/`, `Clippings/`에 속하는 모든 원본 데이터는 불변(Immutable) 상태로 유지하며, 절대 임의로 덮어쓰지 않습니다. 오류 발견 시 위키 문서 영역이나 수정 메모에 기술합니다.
+* **위키 작성**: 위키(`wiki/`) 문서들은 반드시 핵심 논지와 함께 그 근거가 된 원본 소스 파일 링크를 참조 영역(`## References & Sources`)에 밝혀야 합니다.
+* **규칙 준수**: 자세한 위키 구조와 답변 원칙은 [AGENTS.md](file:///C:/Users/jun9u/OneDrive/...obsi.M/cli/AGENTS.md)를 최우선 지침으로 삼아 작업합니다.
