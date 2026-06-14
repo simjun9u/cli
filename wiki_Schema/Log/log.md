@@ -7,11 +7,11 @@
 ## [2026-06-14] ingest | 초기 위키 구축 (Scaffolding & Initial Concepts)
 * **목적**: `raw_MyNote/`와 `Clippings/` 폴더 내 원본 메모 및 수집 자료를 소화하여 첫 개념 정리 페이지들 생성 및 교차 연결.
 * **생성 및 변경된 위키 문서**:
-  * [[index]]: 메인 대시보드 및 전체 내비게이션 맵 구축.
-  * [[LLM-Wiki]]: LLM-Wiki 패턴 철학, 3계층 아키텍처, 핵심 명령 정리.
-  * [[Git]]: Git의 역사적 배경, 핵심 스냅샷 아키텍처, 상태 주기, 병합 및 충돌 해결 흐름 정리.
-  * [[Markdown]]: 마크다운 파편화 역사, CommonMark/GFM 표준 및 확장 문법 정리.
-  * [[Obsidian]]: 로컬 퍼스트 철학 및 보관함(Vault) 생성·제거 생명주기 관리법 정리.
+  * [[wiki/index|index]]: 메인 대시보드 및 전체 내비게이션 맵 구축.
+  * [[wiki/Concepts/LLM-Wiki|LLM-Wiki]]: LLM-Wiki 패턴 철학, 3계층 아키텍처, 핵심 명령 정리.
+  * [[wiki/Concepts/Git|Git]]: Git의 역사적 배경, 핵심 스냅샷 아키텍처, 상태 주기, 병합 및 충돌 해결 흐름 정리.
+  * [[wiki/Dictionary/Markdown|Markdown]]: 마크다운 파편화 역사, CommonMark/GFM 표준 및 확장 문법 정리.
+  * [[wiki/Concepts/Obsidian|Obsidian]]: 로컬 퍼스트 철학 및 보관함(Vault) 생성·제거 생명주기 관리법 정리.
 * **참조된 소스 자료**:
   * [[raw_MyNote/0 Git.md|raw_MyNote/0 Git.md]]
   * [[raw_MyNote/1 md, Obsidian, llm-wiki.md|raw_MyNote/1 md, Obsidian, llm-wiki.md]]
