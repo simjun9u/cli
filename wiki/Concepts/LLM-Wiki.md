@@ -86,4 +86,4 @@ LLM-Wiki는 세 가지 명확한 레이어로 구성됩니다.
 * [[Clippings/Gist. llm-wiki.md|Clippings/Gist. llm-wiki.md]]: 카파시가 작성한 LLM-Wiki의 핵심 구조(3 Layer), 동작(Ingest, Query, Lint)의 기본 정의 및 개념 설계.
 * [[Clippings/2026-04-06T014043-0700. YouTube. LLM Wiki 입문 가이드.md|Clippings/2026-04-06T014043-0700. YouTube. LLM Wiki 입문 가이드.md]]: 정원사 비유, 옵시디언 볼트 초기 셋팅 실습 흐름, 스킬 등록을 통한 자동화 기법.
 * [[Clippings/2026-04-12T044324-0700. YouTube. 카파시의 LLM Wiki로 나만의 AI 세컨드 브레인 만들기...md|Clippings/2026-04-12T044324-0700. YouTube. 카파시의 LLM Wiki로 나만의 AI 세컨드 브레인 만들기...md]]: Gold In, Gold Out 수집 개념, 옵시디언을 프론트엔드 입력 장치로 보는 해석, RAG 대비 LLM-Wiki의 설계 편의성 및 데이터 복리 누적 효과.
-* [[raw_MyNote/1 md, Obsidian, llm-wiki.md|raw_MyNote/1 md, Obsidian, llm-wiki.md]]: 마크다운/옵시디언 도구 연계 및 지식 그래프 사용법, 컨텍스트 주입법.
+* [[refined_MyNote/1 md, Obsidian, llm-wiki.md|refined_MyNote/1 md, Obsidian, llm-wiki.md]]: 마크다운/옵시디언 도구 연계 및 지식 그래프 사용법, 컨텍스트 주입법.

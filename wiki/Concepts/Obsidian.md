@@ -41,4 +41,4 @@
 
 ## 4. References & Sources (근거 자료)
 
-* [[raw_MyNote/1 md, Obsidian, llm-wiki.md|raw_MyNote/1 md, Obsidian, llm-wiki.md]]: 옵시디언 출시 배경, 로컬 퍼스트 및 제텔카스텐 철학, 보관함(Vault) 관리 상세 규칙 (생성, 열기, 삭제 시 원리), LLM-Wiki의 CLI/옵시디언 연결 관계.
+* [[refined_MyNote/1 md, Obsidian, llm-wiki.md|refined_MyNote/1 md, Obsidian, llm-wiki.md]]: 옵시디언 출시 배경, 로컬 퍼스트 및 제텔카스텐 철학, 보관함(Vault) 관리 상세 규칙 (생성, 열기, 삭제 시 원리), LLM-Wiki의 CLI/옵시디언 연결 관계.

@@ -100,5 +100,5 @@ graph LR
 
 ## 7. References & Sources (근거 자료)
 
-* [[raw_MyNote/0 Git.md|raw_MyNote/0 Git.md]]: Git의 기본 명령어 사용 주기(1~8단계), CVS/SVN과 Git의 구조적 역사적 차이(diff vs snapshot 등), 충돌 해결 프로세스, Git Worktree 개념.
+* [[refined_MyNote/0 Git.md|refined_MyNote/0 Git.md]]: Git의 기본 명령어 사용 주기(1~8단계), CVS/SVN과 Git의 구조적 역사적 차이(diff vs snapshot 등), 충돌 해결 프로세스, Git Worktree 개념.
 * [[Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md|Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md]]: 로컬 프로젝트 개발, 기본 쓰기 및 서식, 리포지토리 개념.

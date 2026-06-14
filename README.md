@@ -10,8 +10,9 @@
 
 ```text
 cli/
-├── raw/               # 정리된 외부 원본 자료 보관소 (Immutable, Single Source of Truth)
-├── raw_MyNote/        # 사용자가 직접 작성한 생각 및 개인 원본 메모 보관소 (Immutable)
+├── raw/               # 고용량 원본 파일 보관소 (pdf, img 등, 추후 용량 확보를 위해 임의 삭제 가능)
+├── refined_md/        # raw/의 원본을 md 파일로 파싱 및 변환하여 보관하는 소스 저장소
+├── refined_MyNote/    # 사용자가 직접 작성한 생각 및 마크다운 원본 메모 보관소 (Immutable)
 ├── Clippings/         # 웹 클리퍼, 동영상 대본 스크랩 등 불필요한 정보가 섞인 원시 수집 자료 보관소
 ├── Bookmark/          # 공식 문서, URL 등 외부 웹 참조 정보 모음
 ├── wiki/              # 원본들을 바탕으로 정리된 지식 문서 보관소 (Compounding Knowledge Base)
@@ -34,7 +35,7 @@ cli/
 이 보관함은 AI 에이전트와의 협업을 기반으로 3가지의 핵심 가드닝 작업을 주기적으로 수행합니다.
 
 ### 2-1. Ingest (정보 섭취)
-* **흐름**: 사용자가 새로운 자료를 `raw/`, `raw_MyNote/`, `Clippings/`에 추가 ➔ AI 에이전트에게 이 자료를 읽고 위키에 반영하라고 지시.
+* **흐름**: 사용자가 새로운 자료를 `raw/` 또는 `Clippings/`에 추가하거나 `refined_MyNote/`에 직접 작성 ➔ 정보 섭취(Ingest) 시 `raw/` 변경 사항을 감지하여 `refined_md/`에 `.md`로 변환 후 위키 반영.
 * **동작**: 에이전트는 중복되는 내용을 기존 위키에 병합하고, 새로운 개념이나 용어 문서를 생성하며, Obsidian 양방향 링크(`[[링크]]`) 구조를 연결합니다. 최종적으로 `wiki/index.md`와 `wiki_Schema/Log/log.md`를 갱신합니다.
 
 ### 2-2. Query (지식 질의)
@@ -49,6 +50,6 @@ cli/
 
 ## 3. 에이전트 가이드라인 및 규칙
 
-* **원본 보존**: `raw/`, `raw_MyNote/`, `Clippings/`에 속하는 모든 원본 데이터는 불변(Immutable) 상태로 유지하며, 절대 임의로 덮어쓰지 않습니다. 오류 발견 시 위키 문서 영역이나 수정 메모에 기술합니다.
+* **원본 보존**: `raw/`, `refined_md/`, `refined_MyNote/`, `Clippings/`에 속하는 데이터는 함부로 덮어쓰거나 수정하지 않습니다. 오류 발견 시 위키 문서나 수정 메모에 기록합니다.
 * **위키 작성**: 위키(`wiki/`) 문서들은 반드시 핵심 논지와 함께 그 근거가 된 원본 소스 파일 링크를 참조 영역(`## References & Sources`)에 밝혀야 합니다.
 * **규칙 준수**: 자세한 위키 구조와 답변 원칙은 [AGENTS.md](file:///C:/Users/jun9u/OneDrive/...obsi.M/cli/AGENTS.md)를 최우선 지침으로 삼아 작업합니다.

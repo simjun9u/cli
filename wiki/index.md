@@ -48,6 +48,6 @@
 * [[Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md|GitHub Docs. GitHub 설명서 시작하기]]
 * [[Clippings/GitHub Docs. GitHub.com 도움말 설명서.md|GitHub Docs. GitHub.com 도움말]]
 
-### 7-2. 자체 노트 (raw_MyNote)
-* [[raw_MyNote/0 Git.md|raw_MyNote/0 Git.md]]
-* [[raw_MyNote/1 md, Obsidian, llm-wiki.md|raw_MyNote/1 md, Obsidian, llm-wiki.md]]
+### 7-2. 자체 노트 (refined_MyNote)
+* [[refined_MyNote/0 Git.md|refined_MyNote/0 Git.md]]
+* [[refined_MyNote/1 md, Obsidian, llm-wiki.md|refined_MyNote/1 md, Obsidian, llm-wiki.md]]

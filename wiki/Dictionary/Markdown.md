@@ -39,5 +39,5 @@ GitHub 서비스 내에서 사용하기 위해 개발된 마크다운 확장 구
 
 ## 4. References & Sources (근거 자료)
 
-* [[raw_MyNote/1 md, Obsidian, llm-wiki.md|raw_MyNote/1 md, Obsidian, llm-wiki.md]]: 존 그루버의 마크다운 탄생 배경, 2009년 파편화 이슈, CommonMark 및 GFM 표준화 역사, 존 맥팔레인(jgm)과 Pandoc 정보.
+* [[refined_MyNote/1 md, Obsidian, llm-wiki.md|refined_MyNote/1 md, Obsidian, llm-wiki.md]]: 존 그루버의 마크다운 탄생 배경, 2009년 파편화 이슈, CommonMark 및 GFM 표준화 역사, 존 맥팔레인(jgm)과 Pandoc 정보.
 * [[Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md|Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md]]: GitHub 쓰기 및 서식 구문 링크 참조.

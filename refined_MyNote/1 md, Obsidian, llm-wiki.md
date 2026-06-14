@@ -57,6 +57,7 @@
 	* 팁. Query 성능 높이기
 		* 관심사별 Vault 분리
 		* 목적·산출물 고려하기
+* CLI 도구 실행위치 = Git 프로젝트 폴더 = Obsidian Vault 
 * AI Agent 사용법: Context 주입법
 	* 직접 주입 (add context)
 		* @ (Mention) : 참조할 부분 명시. @Filename, CodeBlock, Folder, Git이력 등.
