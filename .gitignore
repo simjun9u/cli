@@ -1,0 +1,8 @@
+# LLM-Wiki Ignored directories (Copyright / Large File concerns)
+raw/
+refined_md/
+Clippings/
+Bookmark/
+
+# Obsidian local user workspace config
+.obsidian/workspace.json
