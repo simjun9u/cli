@@ -15,7 +15,7 @@
 * **참조된 소스 자료**:
   * [[refined_MyNote/0 Git.md|refined_MyNote/0 Git.md]]
   * [[refined_MyNote/1 md, Obsidian, llm-wiki.md|refined_MyNote/1 md, Obsidian, llm-wiki.md]]
-  * [[Clippings/Gist. llm-wiki.md|Clippings/Gist. llm-wiki.md]]
+  * [[2 LLM-Wiki|Clippings/Gist. llm-wiki.md]]
   * [[Clippings/2026-04-06T014043-0700. YouTube. LLM Wiki 입문 가이드.md|Clippings/2026-04-06T014043-0700. YouTube. LLM Wiki 입문 가이드.md]]
   * [[Clippings/2026-04-12T044324-0700. YouTube. 카파시의 LLM Wiki로 나만의 AI 세컨드 브레인 만들기, 이것만 보세요— 클로드 코드 × 옵시디언 × Graphify.md|Clippings/2026-04-12T044324-0700. YouTube. 카파시의 LLM Wiki로 나만의 AI 세컨드 브레인 만들기...md]]
   * [[Clippings/2026-05-17T070502-0700. YouTube. How To Build LLM Wiki In Obsidian 🧠 A Memory Layer For Any Agentic AI.md|Clippings/2026-05-17T070502-0700. YouTube. How To Build LLM Wiki In Obsidian...md]]

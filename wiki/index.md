@@ -51,3 +51,7 @@
 ### 7-2. 자체 노트 (refined_MyNote)
 * [[refined_MyNote/0 Git.md|refined_MyNote/0 Git.md]]
 * [[refined_MyNote/1 md, Obsidian, llm-wiki.md|refined_MyNote/1 md, Obsidian, llm-wiki.md]]
+
+### 7-3. 북마크 수집 및 추적 (Bookmark targets & tracking)
+* `Bookmark/targets/` - 수집 대상 URL 목록 관리 폴더
+* `Bookmark/tracking/` - 동기화 에이전트 자동 크롤링 통합 리포트 폴더

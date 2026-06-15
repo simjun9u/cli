@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "refined_MyNote/1 md, Obsidian, llm-wiki.md",
+                "file": "Bookmark/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1 md, Obsidian, llm-wiki"
+              "title": "무제"
             }
           }
         ]
@@ -33,6 +33,7 @@
       {
         "id": "2ba3a12b5deea1a4",
         "type": "tabs",
+        "dimension": 37.33804475853945,
         "children": [
           {
             "id": "bb1313169672efee",
@@ -40,13 +41,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "refined_MyNote/1 md, Obsidian, llm-wiki.md",
+                "file": "Bookmark/무제.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1 md, Obsidian, llm-wiki 의 개요"
+              "title": "무제 의 개요"
             }
           }
         ]
@@ -54,6 +55,7 @@
       {
         "id": "1e01b9e50c6fb4f0",
         "type": "tabs",
+        "dimension": 62.66195524146055,
         "children": [
           {
             "id": "e50580f20364fdb6",
@@ -115,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "refined_MyNote/1 md, Obsidian, llm-wiki.md",
+                "file": "Bookmark/무제.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1 md, Obsidian, llm-wiki 의 백링크"
+              "title": "무제 의 백링크"
             }
           },
           {
@@ -134,12 +136,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "refined_MyNote/1 md, Obsidian, llm-wiki.md",
+                "file": "Bookmark/무제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "1 md, Obsidian, llm-wiki 의 나가는 링크"
+              "title": "무제 의 나가는 링크"
             }
           },
           {
@@ -192,21 +194,25 @@
   },
   "active": "57f0411228edac49",
   "lastOpenFiles": [
-    "refined_MyNote/0 Git.md",
+    "Bookmark/tracking",
+    "Bookmark/targets",
+    "refined_MyNote/2 LLM-Wiki.md",
+    "Bookmark/무제.md",
     "refined_MyNote/1 md, Obsidian, llm-wiki.md",
+    "wiki/Concepts/LLM-Wiki.md",
     "raw/YTB 편집자P 추천하는 llm-wiki Skill.md",
+    "AGENTS.md",
+    "wiki/index.md",
+    "README.md",
+    "wiki/Dictionary/Markdown.md",
+    "wiki/Concepts/Obsidian.md",
+    "wiki/Concepts/Git.md",
+    "wiki_Schema/Log/log.md",
+    "refined_MyNote/0 Git.md",
     "raw_MyNote/1 md, Obsidian, llm-wiki.md",
     "refined_md",
     "refined_MyNote",
-    "README.md",
-    "AGENTS.md",
-    "wiki_Schema/Log/log.md",
     "wiki_Schema/log.md",
-    "wiki/index.md",
-    "wiki/Concepts/Git.md",
-    "wiki/Concepts/LLM-Wiki.md",
-    "wiki/Concepts/Obsidian.md",
-    "wiki/Dictionary/Markdown.md",
     "wiki/Obsidian.md",
     "wiki_Schema/Log",
     "wiki/Snippets",
@@ -220,12 +226,9 @@
     "wiki/Git.md",
     "Clippings/2026-04-12T044324-0700. YouTube. 카파시의 LLM Wiki로 나만의 AI 세컨드 브레인 만들기, 이것만 보세요— 클로드 코드 × 옵시디언 × Graphify.md",
     "Clippings/2026-05-17T070502-0700. YouTube. How To Build LLM Wiki In Obsidian 🧠 A Memory Layer For Any Agentic AI.md",
-    "Clippings/Gist. llm-wiki.md",
     "Clippings/2026-04-06T014043-0700. YouTube. LLM Wiki 입문 가이드.md",
     "raw_MyNote/0 Git.md",
     "wiki_Schema",
-    "Bookmark",
-    "Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md",
-    "Clippings/GitHub Docs. GitHub.com 도움말 설명서.md"
+    "Clippings/GitHub Docs. GitHub 설명서 시작하기 - GitHub 문서.md"
   ]
 }
